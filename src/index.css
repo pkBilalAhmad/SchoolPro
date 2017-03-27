@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.bgC{
+    background: skyblue;
+    color: black;
+    padding: 10px;
+}
+#root{
+    text-align: center;
+    background: skyblue;
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+#root table th,#root table td{
+    border: 1px solid gray;
+    padding: 10px;
+}
+#root table th:hover,#root table td:hover{
+    border-color: blue;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px gray;
+    background: #fff;
+}
+.toolbar button{
+    padding: 10px;
+    background: black;
+    color: #fff;
+    float: left;
+}
+.toolbar a{
+    display: block;
+    padding: 10px;
+    border-radius: 9px;
+    margin: 10px;
+    color: white;
+    background: #000;
+}
